@@ -5,13 +5,13 @@ import com.plugin.awesomejava.Forecast.ForecastValues;
 import com.plugin.awesomejava.Forecast.WeatherHttpRest;
 import com.plugin.awesomejava.Location.Error;
 import com.plugin.awesomejava.Location.LocationInfo;
+import javafx.scene.control.Alert;
+
+import javax.swing.*;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
-import javafx.scene.control.Alert;
-import javax.swing.JLabel;
-import javax.swing.SwingWorker;
 
 public class BackgroundWorker extends SwingWorker<String, Void> {
 
